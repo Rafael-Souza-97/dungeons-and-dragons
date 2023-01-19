@@ -1,15 +1,15 @@
 # Dungeons & Dragons
 
 Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre 
-[Programação Orientada a Objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.)
-e [Solid](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/).
+[programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.)
+e [SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/).
 
-O projeto consiste em desenvolver um jogo RPG (Role Playing Game) chamado Dungeons & Dragons.
-No jogo, os personagens possuem raças com características específicas e habilidades especiais. As raças incluem Orcs, Elfos, Dwarfs e Halflings.
-Além das raças, os personagens podem ser divididos em arqueotipos, como Magos, Necromancers, Rangers e Warriors.
+O projeto consiste em desenvolver um jogo RPG chamado Dungeons & Dragons. Os jogadores controlam personagens com raças distintas, cada uma com suas próprias características e habilidades especiais. As raças disponíveis incluem Orcs, Elfos, Anões e Halflings. Para ampliar ainda mais a jogabilidade e as possibilidades de personalização, os personagens também podem ser divididos em arqueótipos, tais como Magos, Necromantes, Rangers e Guerreiros.
 
 Os personagens possuem talentos especiais e as batalhas são um aspecto importante do jogo. Além disso, foram implementados mecanismos como a vida, força, energia, level entre outros para o progresso dos personagens. 
-Em resumo, o jogo Dungeons & Dragons é uma aventura épica para os jogadores, onde eles podem explorar um mundo fantástico, enfrentar desafios épicos e evoluir seus personagens.
+Em resumo, o jogo Dungeons & Dragons é um jogo de aventura, onde os jogadores podem explorar um mundo fantástico, enfrentar desafios épicos e evoluir seus personagens.
+
+<br>
 
 <details>
   <summary><strong>Como instalar o Projeto Dungeons & Dragons</strong></summary><br />
@@ -39,29 +39,28 @@ git clone git@github.com:Rafael-Souza-97/dungeons-and-dragons.git
 - Entre na pasta do repositório que você acabou de clonar:
 
 ```bash
-cd smith-project
+cd dungeons-and-dragons
 ```
 
 <br>
 
 - Rode o serviço `node` com o comando `docker-compose up -d`:
 
- > - Esse serviço irá inicializar um container chamado `trybesmith_db` e outro chamado `trybesmith_db`.
+ > - Esse serviço irá inicializar um container chamado `trybers_and_dragonsb`.
  > - A partir daqui você pode rodar o container via CLI ou abri-lo no VS Code.
  
 ```bash
-docker-compose up -d --build
+docker-compose up -d
 ```
 
 <br>
 
-- Use o comando `docker exec -it trybesmith bash`:
+- Use o comando `docker exec -it trybers_and_dragons bash`:
 
  > - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
- > - As credencias de acesso ao banco de dados estão definidas no arquivo `docker-compose.yml`, e são acessíveis no container através das variáveis de ambiente `MYSQL_USER` e `MYSQL_PASSWORD`.
 
 ```bash
-docker exec -it trybesmith_db bash
+docker exec -it trybers_and_dragons bash
 ```
 
 <br>
@@ -72,10 +71,10 @@ docker exec -it trybesmith_db bash
 npm install
 ```
 
- > Execute a aplicação com `npm run dev`:
+ > Execute a aplicação com `npm start`:
  
  ```bash
-npm run dev
+npm start
 ```
 
 <br>
@@ -87,10 +86,10 @@ npm run dev
  
 <br>
 
-- Clone o repositório `git@github.com:Rafael-Souza-97/smith-project.git`:
+- Clone o repositório `git@github.com:Rafael-Souza-97/dungeons-and-dragons.git`:
 
 ```bash
-git clone git@github.com:Rafael-Souza-97/smith-project.git
+git clone git@github.com:Rafael-Souza-97/dungeons-and-dragons.git
 ```
 
 <br>
@@ -98,7 +97,7 @@ git clone git@github.com:Rafael-Souza-97/smith-project.git
 - Entre na pasta do repositório que você acabou de clonar:
 
 ```bash
-cd smith-project
+cd dungeons-and-dragons
 ```
 
 - Instale as depëndencias com `npm install`:
@@ -107,10 +106,10 @@ cd smith-project
 npm install
 ```
 
- > Execute a aplicação com `npm run dev`:
+ > Execute a aplicação com `npm start`:
  
  ```bash
-npm run dev
+npm start
 ```
 
 <hr>
