@@ -11,18 +11,8 @@ Além das raças, os personagens podem ser divididos em arqueotipos, como Magos,
 Os personagens possuem talentos especiais e as batalhas são um aspecto importante do jogo. Além disso, foram implementados mecanismos como a vida, força, energia, level entre outros para o progresso dos personagens. 
 Em resumo, o jogo Dungeons & Dragons é uma aventura épica para os jogadores, onde eles podem explorar um mundo fantástico, enfrentar desafios épicos e evoluir seus personagens.
 
-### Utilização
-
-A aplicação possui as seguintes rotas para realizar as operações de CRUD de posts:
-
-- `GET` /products /orders ou /users: Retorna a lista de todos os produtos, ordens ou usuários existentes no banco de dados;
-- `POST` /products /orders ou /users: Cria um novo produtom ordem ou usuário com os dados enviados no corpo da requisição;
-- `POST` /login: valida o login dos usuários na aplicação com [JSON Web Token (JWT)](https://jwt.io/);
-
-<br>
-
 <details>
-  <summary><strong>Como instalar o Projeto Smith</strong></summary><br />
+  <summary><strong>Como instalar o Projeto Dungeons & Dragons</strong></summary><br />
 
 ## Instalação
  
@@ -38,10 +28,10 @@ A aplicação possui as seguintes rotas para realizar as operações de CRUD de 
 
 <br>
 
-- Clone o repositório `git@github.com:Rafael-Souza-97/smith-project.git`:
+- Clone o repositório `git@github.com:Rafael-Souza-97/dungeons-and-dragons.git`:
 
 ```bash
-git clone git@github.com:Rafael-Souza-97/smith-project.git
+git clone git@github.com:Rafael-Souza-97/dungeons-and-dragons.git
 ```
 
 <br>
