@@ -142,3 +142,7 @@ npm start
 ## Infos Adicionais
 
 - ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 100%
+
+## Preview
+
+https://user-images.githubusercontent.com/99055008/213593288-f4792dae-9a14-4adb-b50f-2edd304112f5.mp4
