@@ -129,6 +129,8 @@ npm start
 ## Tecnologias / Ferramentas utilizadas
 
 - [Typescript](https://www.typescriptlang.org/)
+- [POO](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.)
+- [SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/)
 - [Node](https://nodejs.org/en/)
 - [Docker](https://www.docker.com/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
